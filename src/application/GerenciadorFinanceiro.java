@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class GerenciadorFinanceiro {
-
+	
 	public void adicionarTransacao(Transacao t) {
 		try {
 			FileWriter fw = new FileWriter("financas.csv", true);

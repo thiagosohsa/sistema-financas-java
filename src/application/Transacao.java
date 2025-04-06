@@ -13,7 +13,7 @@ public class Transacao {
 		this.valor = valor;
 		this.data = data;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Tipo: " + tipo + ", Descrição: " + descricao + ", Valor: R$" + valor + ", Data: " + data;
